@@ -10,5 +10,4 @@ server_sock.listen(1)
 
 print("Waiting for connection...")
 client_sock, addr = server_sock.accept()
-
 print('Connected by', addr)
